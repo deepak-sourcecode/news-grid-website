@@ -182,7 +182,7 @@ h6 {
 .list li {
   padding: 0.5rem 0;
   border-bottom: #555 dotted 1px;
-  width: 90%;
+  width: 100%;
 }
 
 .list li a:hover {
@@ -222,7 +222,7 @@ h6 {
 
 #navbar ul {
   display: flex;
-  justify-self: end;
+  justify-self: center;
 }
 
 #navbar ul li a {
@@ -272,7 +272,7 @@ h6 {
 }
 
 #showcase .showcase-container {
-  height: 50vh;
+  min-height: 50vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
